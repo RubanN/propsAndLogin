@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
+import ConditionalRender2 from './CondionalRender/ConditionalRender2';
+// import ConditionalRender from './CondionalRender/ConditionalRender';
+import ConditonalRender1 from './CondionalRender/ConditonalRender1';
 // import { UseState2 } from './UseState/UseState2';
 // import { UseState1 } from './UseState/UseState1';
 // import Cart from './components/Cart';
@@ -69,6 +72,16 @@ const App = () => {
   //   setCart(productList)
   //   localStorage.setItem('cart', JSON.stringify(productList))
   // }
+  //Conditional Rendering methold is being learnt
+
+  // const [isToggled, setToggled] = useState(false);
+
+
+
+
+
+
+
   return (
     <div className="App">
       {/* <Sizes selectedSizes={selectedSizes} setSize={setSize} />
@@ -76,6 +89,10 @@ const App = () => {
       <Cart products={cart} changeQuantity={changeQuantity} /> */}
       {/* <UseState1 /> */}
       {/* <UseState2 /> */}
+      {/* <ConditionalRender /> */}
+      {/* <button onClick={() => setToggled(!isToggled)}>Toggle</button>
+      {isToggled && <ConditonalRender1 />} */}
+      <ConditionalRender2 />
     </div>
   );
 }
