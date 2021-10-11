@@ -1,8 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import ConditionalRender2 from './CondionalRender/ConditionalRender2';
+import UserForm from './CustomHooks/CodeVolution/UserForm/UserForm';
+// import DocTitleOne from './CustomHooks/CodeVolution/DocTitleOne';
+// import DocTitleTwo from './CustomHooks/CodeVolution/DocTitleTwo';
+// import { RenderProps } from './RenderProps/RenderProps';
+// import ConditionalRender2 from './CondionalRender/ConditionalRender2';
 // import ConditionalRender from './CondionalRender/ConditionalRender';
-import ConditonalRender1 from './CondionalRender/ConditonalRender1';
+// import ConditonalRender1 from './CondionalRender/ConditonalRender1';
 // import { UseState2 } from './UseState/UseState2';
 // import { UseState1 } from './UseState/UseState1';
 // import Cart from './components/Cart';
@@ -92,7 +96,15 @@ const App = () => {
       {/* <ConditionalRender /> */}
       {/* <button onClick={() => setToggled(!isToggled)}>Toggle</button>
       {isToggled && <ConditonalRender1 />} */}
-      <ConditionalRender2 />
+      {/* <ConditionalRender2 /> */}
+      {/* <RenderProps /> */}
+      {/* <DocTitleOne /> */}
+      {/* <DocTitleTwo /> */}
+      <UserForm />
+
+
+
+
     </div>
   );
 }
